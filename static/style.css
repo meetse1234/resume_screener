@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+#dropArea {
+  transition: background-color 0.3s ease;
+}
+
+#dropArea.dragover {
+  background-color: rgba(59, 130, 246, 0.2);
+}
+
+.shortlisted {
+    border-color: #3B82F6 !important;
+}
+
+.dashboard-container {
+    background: #F9FAFB;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.skills-chart {
+    height: 300px;
+    width: 100%;
+}
